@@ -11,13 +11,13 @@ These are various "time savers" I use to feed and care for my DB2 environment. A
 None.
 
 ### Pre-Requisites:
-None per se. But read the comments in each before making assumptions.
+None per se, but read the comments in each before making assumptions.
 
 ### Available SQL and Scripts:
 
 *ARCH_DIAG.ksh*
 
-To archive the DB2 Error and Notify Log files (db2diag.log and instance.nfy) and append with a timestamp
+To archive the DB2 Error and Notify Log files (db2diag.log and instance.nfy) and append with a timestamp.
 
 
 *Automated_Reboot.zip*
@@ -34,7 +34,7 @@ Confirms X amount of backups are on disk and that at least one is less than X da
 
 *CRITICAL_INFO.ksh*	
 
-Quick hit script to grab some details (to help wiuth recovery) before major DB work or change window.
+Quick hit script to grab some details (to help with recovery) before major DB work or change window.
 
 
 *GET_FUNCTION.sql*
