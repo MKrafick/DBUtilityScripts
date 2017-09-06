@@ -42,6 +42,14 @@ Quick hit script to grab some details (to help with recovery) before major DB wo
 Script to do a quick JDBC connection check (Pass/Fail) via a command line. Used to eliminate variables with a failed GUI connection, etc. Checks JDBC connection at basic level. Manually edit assigtned variables, compile, and run.
 
 
+*DB2Test.java*
+
+More flexible variation of DB2ConnectionTest.java by Jonathan Gnagy. Allows you to pass JDBC URL, ID, Password instead of manually editing the Java file itself. Read comments within java file for possible special formatting witb password.
+
+For example:
+```java -cp "/sw/pkg/IBM/db2/V10.5/java/db2jcc.jar:." ConnectionExample jdbc:db2://localhost:50001/exampledb db2inst1 ‘password'
+
+
 *GET_FUNCTION.sql*
 
 Matches a function to a package. This will help you link what function is struggling during a failed rebind.
