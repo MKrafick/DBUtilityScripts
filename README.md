@@ -39,7 +39,7 @@ Quick hit script to grab some details (to help with recovery) before major DB wo
 
 *DB2ConnectionTest.java*
 
-Script to do a quick JDBC connection check (Pass/fail) via a command line. Used to eliminate variables with a failed GUI connection, etc. Checks JDBC connection at basic level.
+Script to do a quick JDBC connection check (Pass/Fail) via a command line. Used to eliminate variables with a failed GUI connection, etc. Checks JDBC connection at basic level. Manually edit assigtned variables, compile, and run.
 
 
 *GET_FUNCTION.sql*
