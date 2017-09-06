@@ -37,6 +37,11 @@ Confirms X amount of backups are on disk and that at least one is less than X da
 Quick hit script to grab some details (to help with recovery) before major DB work or change window.
 
 
+*DB2ConnectionTest.java*
+
+Script to do a quick JDBC connection check (Pass/fail) via a command line. Used to eliminate variables with a failed GUI connection, etc. Checks JDBC connection at basic level.
+
+
 *GET_FUNCTION.sql*
 
 Matches a function to a package. This will help you link what function is struggling during a failed rebind.
