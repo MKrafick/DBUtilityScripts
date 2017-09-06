@@ -47,8 +47,9 @@ Script to do a quick JDBC connection check (Pass/Fail) via a command line. Used 
 More flexible variation of DB2ConnectionTest.java by Jonathan Gnagy. Allows you to pass JDBC URL, ID, Password instead of manually editing the Java file itself. Read comments within java file for possible special formatting witb password.
 
 For example:
-```java -cp "/sw/pkg/IBM/db2/V10.5/java/db2jcc.jar:." ConnectionExample jdbc:db2://localhost:50001/exampledb db2inst1 ‘password'
-
+```
+java -cp "/sw/pkg/IBM/db2/V10.5/java/db2jcc.jar:." ConnectionExample jdbc:db2://localhost:50001/exampledb db2inst1 ‘password'
+```
 
 *GET_FUNCTION.sql*
 
