@@ -2,7 +2,7 @@
 KSH and SQL used for maintaining a DB2 Database on LUW
 
 ### Disclaimer:
-I am not an advanced scripter or SQL writer. Use these at your own risk.
+I am not an advanced scripter or SQL writer. No warranty implied, use these at your own risk.
 
 ### Purpose:
 These are various "time savers" I use to feed and care for my DB2 environment. A lot have to do with general maintenance and monitoring and some are quick and dirty time savers. You may see some clean and well documented code and you may see a quick hack job. So use or manipulate at your own risk.
