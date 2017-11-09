@@ -82,6 +82,18 @@ Some logic or direct code is based off IBM's sample script: ~/sqllib/samples/hac
 **Note**: This is the original version developed in 2012 with zero updates. No longer have environment to test in. Use at own risk.
 
 
+*PRIM_BKUP_DEL.ksh*
+
+Secondary script used in conjunction with ROLL_BACKUPS.ksh on a primary server.
+Called remotely by ROLL_BACKUPS.ksh to prune redundant backups SCP'ed to this server for offsite retention.
+
+
+*ROLL_BACKUPS.ksh*
+
+Archives backup files over X days old to an archive area on the same server. Keeps a minimum amt of backups "active". 
+Optional section that will SCP backups to an offsite location for additional redundancy. (Optional feature requires PRIM_BKUP_DEL.ksh).
+
+
 *QUICK_REORG.ksh*	
 
 Very quick and dirty way to REORG tables and indexes by schema. Not a robust nor advanced script. Tweak as needed.
